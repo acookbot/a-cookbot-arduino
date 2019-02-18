@@ -528,7 +528,10 @@ void OnlyTimeOparation(int t)
   digitalWrite(spudPin, LOW);
 
 }
-
+void temp_control()
+{
+  //Temp control sensore attached and run
+}
 void OnlyTimeDelayF(int t)
 {
   //Serial.println(t);
